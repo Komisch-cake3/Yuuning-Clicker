@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Bob', sans-serif;
+    src: url("Fonts/Xmas\ Funny\ Demo.otf") format("openType");
+}
+
+
+body{ 
+    height: 500px;
+    width: 500px;
+    background-color:#dfb0f1;
+}
+
+.yuuning{
+    height: 600px;
+    width: 600px;
+    position:absolute;
+    left: 450px;
+    top: 100px;
+    transition: transform 0.3s;
+}
+
+.yuuning:hover{
+    transform: scale(1.2);
+}
+
+
+header{
+    font-size: 70px;
+    font-family: 'Bob',sans-serif;
+    color:white;
+    position: absolute;
+    left: 400px;
+}
