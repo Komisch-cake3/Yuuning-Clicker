@@ -1,6 +1,6 @@
 const yuuning = document.getElementById("yuuning");
 const scoreDisplay = document.getElementById("score");
-const clickSound = new Audio("Audio/boing.mp3");
+const clickSound = new Audio("Audio/oof.mp3");
 
 
 let count = 0;
